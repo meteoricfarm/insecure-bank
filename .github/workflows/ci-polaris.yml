@@ -5,13 +5,13 @@
 name: Polaris Security Testing
 
 on:
-  push:
-    # At this time, it is recommended to run Polaris only on pushes to main branches
-    # Pull request analysis will be supported by Polaris in the future
-    branches: [ "master" ]
+  # push:
+  #   # At this time, it is recommended to run Polaris only on pushes to main branches
+  #   # Pull request analysis will be supported by Polaris in the future
+  #   branches: [ "master" ]
 
-  pull_request:
-    branches: [ "master" ]
+  # pull_request:
+  #   branches: [ "master" ]
 
   workflow_dispatch:
 
